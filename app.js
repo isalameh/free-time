@@ -8,9 +8,15 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
-var add = require('./routes/add');
-
+//var add = require('./routes/add'); 
 var index = require('./routes/index');
+var questions = require('./routes/questions');
+var slider = require('./routes/slider');
+var profile = require('./routes/profile');
+var history = require('./routes/history');
+var settings = require('./routes/settings');
+var end = require('./routes/end');
+var logout = require('./routes/logout');
 // Example route
 // var user = require('./routes/user');
 
@@ -37,8 +43,15 @@ if ('development' == app.get('env')) {
 }
 
 // Add routes here
-app.get('/add', add.addFriend);
 app.get('/', index.view);
+app.get('/', questions.view);
+app.get('/', slider.view);
+app.get('/', profile.view);
+app.get('/', history.view);
+app.get('/', settings.view);
+app.get('/', end.view);
+app.get('/', logout.view);
+
 // Example route
 // app.get('/users', user.list);
 
