@@ -44,13 +44,13 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
-app.get('/', questions.view);
-app.get('/', slider.view);
-app.get('/', profile.view);
-app.get('/', history.view);
-app.get('/', settings.view);
-app.get('/', end.view);
-app.get('/', logout.view);
+app.get('/questions', questions.view);
+app.get('/slider', slider.view);
+app.get('/profile', profile.view);
+app.get('/history', history.view);
+app.get('/settings', settings.view);
+app.get('/end', end.view);
+app.get('/logout', logout.view);
 
 // Example route
 // app.get('/users', user.list);
