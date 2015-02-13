@@ -39,8 +39,8 @@ p {
 .navigation
 {
 	height: 15%;
-	bottom: 85%;
-	position: absolute;
+	top: 2%;
+	position: fixed;
 	width: 100%;
 }
 

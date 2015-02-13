@@ -6,42 +6,40 @@
         window.history.back()
       }
     </script>
-  <title>groupies</title>
-  <link rel="stylesheet" type="text/css" href="bubbles.css">
+  <title>Experience Personalization</title>
+<head> 
+  <link rel="stylesheet" type"text/css" href="css/bubbles.css">
+  <link rel="stylesheet" type"text/css" href="css/team4.css">
 </head>
 <body>
     <div> <h1>iLike</h1> 
-      <p>
-    <a href="wait.html">LogOut</a>
-      </p> 
     </div>
-<p STYLE="WIDTH:100%;" align="center"> <font size="42">How big is your group?</font> </p>
+<p STYLE="WIDTH:100%;" align="center"> <font size="42">Let Us Personalize Your Experience!</font> </p>
+
 {{#each questions}}
-  <div id="bubble1"><a href="end.html">
-  	<img STYLE="WIDTH:30%;" src="bubble3.png" >
-  	</a></div>
-  	  <div class="bubble3"><a href="end.html">
-  	<img STYLE="WIDTH:30%; " src="bubble3.png">
-  	</a></div>
-  	<div class="bubble3"  ><a href="profile.html">
-  	<img STYLE="WIDTH:30%;" src="bubble3.png">
-  	</a></div>
-  </a></div>
+<div> <h2 class="food">{{qq}}</h2></div>
+<div> <h4 class="fun">{{opt1}}</h4></div>
+<div> <h4 class="fun">{{opt2}}</h4></div>
+<div> <h4 class="fun">{{opt3}}</h4></div>
 {{/each}}
 
-
+<a href="end">
+  <img STYLE="position:fixed;bottom:2%; right:2% WIDTH:15%;" vertical  src="/images/go.jpg">
+  </a>
 
   <div class="navigation">
     <ul id="menu">
       <li><a onclick="goBack()">Go Back</a><li>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="profile.html">Profile</a></li>
-      <li><a href="wait.html">Settings</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="profile">Profile</a></li>
+      <li><a href="settings">Settings</a></li>
+      <li><a href="logout">LogOut</a></li>
     </ul> 
   </div>
+
+<script src="/js/jquery-1.11.0.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/hci-friends.js"></script>
+
 </body>
-
-
-
-
 </html>

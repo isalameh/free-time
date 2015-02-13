@@ -6,9 +6,10 @@
 $(document).ready(function() {
 	initializePage();
 	
-	$('.thumbnail').click(function(event){
+	$('.fun').click(function(event){
 	event.preventDefault();
-		$(this).text(anagrammedName($(this).text()));
+	console.log("Item Selected");
+		$(this).text("selected");
 	});
 })
 

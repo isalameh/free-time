@@ -102,34 +102,11 @@ input.vertical
 	color: #B1C455;
 }
 
-
-
-.navigation
+.selected
 {
-	bottom: 2%;
-	position: fixed;
-	width: 100%;
+	background-color: #00CC00;
+	border-radius: 0 30px 30px 0;
+	padding-left: 30px;
+	color: #647448;
 }
 
-ul#menu {
-	position: absolute;
-    padding: 0;
-}
-
-ul#menu li {
-    display: inline;
-    width: 25%;
-}
-
-ul#menu li a {
-    background-color: tan;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 4px 4px 0 0;
-    width: 25%;
-}
-
-ul#menu li a:hover {
-    background-color: silver;
-}

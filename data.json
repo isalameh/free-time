@@ -3,17 +3,30 @@
 		{
 			"serial": "q1",
 			"qq": "How Many People?",
-			"opt1": "solo",
-			"opt2": "date",
+			"opt1": "Solo",
+			"opt2": "Date",
 			"opt3": "group"
 		},
 		{
-			
 			"serial": "q2",
-			"qq": "How Much $$?",
-			"opt1": "cheap",
-			"opt2": "moderate",
-			"opt3": "fancy"
-		}		
+			"qq": "How Much $$ Do You Want to Spend?",
+			"opt1": "On A Budget",
+			"opt2": "Moderate",
+			"opt3": "Fancy"
+		},		
+		{
+			"serial": "q3",
+			"qq": "How Are You Feeling?",
+			"opt1": "Hungry",
+			"opt2": "Adventurous",
+			"opt3": "Lonely"
+		},
+		{
+			"serial": "q4",
+			"qq": "How is the Weather?",
+			"opt1": "Sunny",
+			"opt2": "Partly Cloudy",
+			"opt3": "Shitty"
+		}				
 	]
 }

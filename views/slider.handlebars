@@ -2,34 +2,37 @@
 <html>
 <head>
   <title>Triple bubble</title>
-  <link rel="stylesheet" type="text/css" href="bubbles.css">
+  <link rel="stylesheet" type"text/css" href="css/bubbles.css">
+  <link rel="stylesheet" type"text/css" href="css/team4.css">
 </head>
 <body>
   <h1>iLike</h1>
   <div id="bubble1">
-  	<img STYLE="position:absolute; TOP:15%; LEFT:12%; WIDTH:60%; HEIGHT:15%" src="bubble1.jpg" >
   	</div>
 
-    <input STYLE="position:absolute; TOP:22%; LEFT:25%;" type=range min=0 max=5 value=3 id=fader>
+    <input STYLE="position:absolute; TOP:50%; LEFT:25%;" type=range min=0 max=5 value=3 id=fader>
     
 
-  	<div STYLE="position:absolute; TOP:50%; LEFT:40%; WIDTH:30%; HEIGHT:50%" class="guy1"><a href="questions.handlebars">
-  	<img src="guy1.png">
+  	<div STYLE="position:absolute; TOP:50%; LEFT:40%; WIDTH:30%; HEIGHT:50%" class="guy1"><a href="questions">
+  	<img src="/images/go.jpg">
   	</a></div>
   </a></div>
 
-  <p STYLE="position:absolute; TOP:50%; LEFT:12%; WIDTH:30%; HEIGHT:15%"  >How much time do we have?</p>
+  <p STYLE="position:absolute; TOP:20%; LEFT:12%; WIDTH:30%; HEIGHT:15%"  >How much time do we have?</p>
 
-<div class="navigation">
-  <ul id="menu">
-    <li><a href="history.html">History</a></li>
-    <li><a href="profile.html">Profile</a></li>
-    <li><a href="friends.html">Find Friends</a></li>
-  </ul>  
-</div>
+  <div class="navigation">
+    <ul id="menu">
+      <li><a onclick="goBack()">Go Back</a><li>
+      <li><a href="/">Home</a></li>
+      <li><a href="profile">Profile</a></li>
+      <li><a href="settings">Settings</a></li>
+      <li><a href="logout">LogOut</a></li>
+    </ul> 
+  </div>
+
+<script src="/js/jquery-1.11.0.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/hci-friends.js"></script>
+
 </body>
-
-
-
-
 </html>
