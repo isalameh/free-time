@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+      function goBack() {
+        window.history.back()
+      }
+    </script>
+  <title>Experience Personalization</title>
+<head> 
+  <link rel="stylesheet" type"text/css" href="css/bubbles.css">
+  <link rel="stylesheet" type"text/css" href="css/team4.css">
+</head>
+<body>
+    <div> <h1>iLike</h1> 
+    </div>
+<p STYLE="WIDTH:100%;" align="center"> <font size="42">Your Personalized Suggestions!</font> </p>
+
+{{#each suggestions}}
+<div> <h2 class="food">{{ss}}</h2></div>
+<div> <img src ={{imgURL}}></div>
+<div> <h4>{{map}}</h4></div>
+{{/each}}
+
+
+  <div class="navigation">
+    <ul id="menu">
+      <li><a onclick="goBack()">Go Back</a><li>
+      <li><a href="/">Home</a></li>
+      <li><a href="profile">Profile</a></li>
+      <li><a href="settings">Settings</a></li>
+      <li><a href="logout">LogOut</a></li>
+    </ul> 
+  </div>
+
+<script src="/js/jquery-1.11.0.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/hci-friends.js"></script>
+
+</body>
+</html>

@@ -15,7 +15,7 @@ var slider = require('./routes/slider');
 var profile = require('./routes/profile');
 var history = require('./routes/history');
 var settings = require('./routes/settings');
-var end = require('./routes/end');
+var suggestions = require('./routes/suggestions');
 var logout = require('./routes/logout');
 // Example route
 // var user = require('./routes/user');
@@ -49,7 +49,7 @@ app.get('/slider', slider.view);
 app.get('/profile', profile.view);
 app.get('/history', history.view);
 app.get('/settings', settings.view);
-app.get('/end', end.view);
+app.get('/suggestions', suggestions.view);
 app.get('/logout', logout.view);
 
 // Example route
