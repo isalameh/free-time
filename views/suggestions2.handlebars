@@ -22,16 +22,13 @@
       <li><a href="logout">LogOut</a></li>
     </ul> 
   </div>
-
-  <p STYLE="WIDTH:100%; padding-top:5%" align="center"> <font size="42">Your Personalized History</font> </p>
+  <div class="big">Your Personalized Suggestions!</div>
 
 {{#each suggestions}}
 <div> <h2 class="food">{{ss}}</h2></div>
-<div> <h4 class="fun">{{feeling}}</h4></div>
-<div> <h4 class="fun">{{eventDate}}</h4></div>
-
+<div><a href="rating"> <img src ={{imgURL}} class = "result_img"></a></div>
+<div> <img src ={{mapURL}} class = "result_map"></div>
 {{/each}}
-
 
 <script src="/js/jquery-1.11.0.js"></script>
 <script src="/js/bootstrap.js"></script>

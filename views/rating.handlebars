@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+      function goBack() {
+        window.history.back()
+      }
+    </script>
+  <title>Experience Personalization</title>
+<head> 
+  <link rel="stylesheet" type"text/css" href="css/bubbles.css">
+  <link rel="stylesheet" type"text/css" href="css/team4.css">
+</head>
+<body>
+  <div class="navigation">
+    <ul id="menu">
+      <li><a onclick="goBack()">Go Back</a><li>
+      <li><a href="/">Home</a></li>
+      <li><a href="profile">Profile</a></li>
+      <li><a href="settings">Settings</a></li>
+      <li><a href="logout">LogOut</a></li>
+    </ul> 
+  </div>
+
+<p STYLE="WIDTH:100%; padding-top:5%" align="center"> <font size="42">Please Rate Your Experience!</font> </p>
+
+<form id="addRatingForm" role="form" method="get" action="/rating">
+		<h3>Add a Rating</h3>
+	    <div class="form-group">
+	      <label for="ss">Where Did You Go?</label>
+	      <input type="text" class="form-control" id="ss" placeholder="Place" name="ss">
+	    </div>
+	    <div class="form-group">
+	      <label for="feeling">How Did This Make You Feel?</label>
+	      <input type="text" class="form-control" id="feeling" placeholder="Feelings" name="feeling">
+	    </div>
+	    <div class="form-group">
+	      <label for="description">When Did You Do This?</label>
+	      <input type="text" class="form-control" id="eventDate" placeholder="Date" name="eventDate">
+	    </div>
+	    <input type="submit" id="submitBtn" class="btn btn-default" value="Record Your Experience"></input>
+</form>
+
+
+<script src="/js/jquery-1.11.0.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/hci-friends.js"></script>
+
+</body>
+</html>
+
+

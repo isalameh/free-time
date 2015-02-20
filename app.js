@@ -16,6 +16,7 @@ var profile = require('./routes/profile');
 var history = require('./routes/history');
 var settings = require('./routes/settings');
 var suggestions = require('./routes/suggestions');
+var rating = require('./routes/rating');
 var logout = require('./routes/logout');
 // Example route
 // var user = require('./routes/user');
@@ -51,6 +52,9 @@ app.get('/history', history.view);
 app.get('/settings', settings.view);
 app.get('/suggestions', suggestions.view);
 app.get('/logout', logout.view);
+app.get('/rating', rating.addRating);
+
+//app.get('/rating/:')
 
 // Example route
 // app.get('/users', user.list);
