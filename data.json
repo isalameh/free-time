@@ -104,24 +104,27 @@
 			"eventDate": "02/20/2015"
 		}
 	],
-	"help": [
+	"settings": [
 	{
 			"id":1,
-			"hp": "Are You Over 21?",
-			"feeling": "You Felt Adventurous!",
-			"eventDate": "01/01/2015"
+			"set": "Are You Over 21?",
+			"opt1": "Yes",
+			"opt2": "No",
+			"opt3": "No, but I have a fake id"
 		},
 		{
 			"id": 2,
-			"hp": "Kayaking",
-			"feeling": "You Were Exhausted",
-			"eventDate": "01/11/2015"
+			"set": "Are You Single?",
+			"opt1": "Yes",
+			"opt2": "No",
+			"opt3": "Weekdays Only"
 		},
 		{
 			"id": 3,
-			"hp": "Romantic Dinner",
-			"feeling": "You Felt Like a Sucker!",
-			"eventDate": "02/14/2015"
+			"set": "Do You Have Kids?",
+			"opt1": "Yes",
+			"opt2": "No",
+			"opt3": "Don't Know, Ask Maurry"
 		}
 	]
 }

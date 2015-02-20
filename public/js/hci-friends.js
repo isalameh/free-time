@@ -6,11 +6,18 @@
 $(document).ready(function() {
 	initializePage();
 	
-	$('.fun').click(function(event){
+/*$('.fun').click(function(event){
 	event.preventDefault();
 	console.log("Item Selected");
-		$(this).text("selected");
-	});
+	$(this).text("selected");
+});*/
+
+$('.fun').click(function(event){
+	event.preventDefault();
+	console.log("Item Selected");
+	$(this).css("background-color", "#cccccc");
+});
+
 })
 
 /*

@@ -8,8 +8,10 @@
     </script>
   <title>Experience Personalization</title>
 <head> 
-  <link rel="stylesheet" type"text/css" href="css/bubbles.css">
-  <link rel="stylesheet" type"text/css" href="css/team4.css">
+	<link href="/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.css" rel="stylesheet">
+	<link rel="stylesheet" type"text/css" href="css/bubbles.css">
+	<link rel="stylesheet" type"text/css" href="css/team4.css">
 </head>
 <body>
   <div class="navigation">
@@ -17,7 +19,7 @@
       <li><a onclick="goBack()">Go Back</a><li>
       <li><a href="/">Home</a></li>
       <li><a href="profile">Profile</a></li>
-      <li><a href="settings">Settings</a></li>
+      <li><a href="history">History</a></li>
       <li><a href="logout">LogOut</a></li>
     </ul> 
   </div>
@@ -25,17 +27,23 @@
 <p STYLE="WIDTH:100%; padding-top:5%" align="center"> <font size="42">Please Rate Your Experience!</font> </p>
 
 <form id="addRatingForm" role="form" method="get" action="/rating">
-		<h3>Add a Rating</h3>
+		<font size="44">Add a Rating</font>
 	    <div class="form-group">
-	      <label for="ss">Where Did You Go?</label>
+	      <label for="ss">
+	    	<div> <h2 class="food">Where Did You Go?</h2></div>
+	      </label>
 	      <input type="text" class="form-control" id="ss" placeholder="Place" name="ss">
 	    </div>
 	    <div class="form-group">
-	      <label for="feeling">How Did This Make You Feel?</label>
+	      <label for="feeling">
+	      	<div> <h2 class="food">How Did This Make You Feel?</h2></div>
+	      </label>
 	      <input type="text" class="form-control" id="feeling" placeholder="Feelings" name="feeling">
 	    </div>
 	    <div class="form-group">
-	      <label for="description">When Did You Do This?</label>
+	      <label for="description">
+	      	<div> <h2 class="food">When Did You Do This?</h2></div>
+	      	</label>
 	      <input type="text" class="form-control" id="eventDate" placeholder="Date" name="eventDate">
 	    </div>
 	    <input type="submit" id="submitBtn" class="btn btn-default" value="Record Your Experience"></input>
