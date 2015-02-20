@@ -11,19 +11,9 @@
   <link rel="stylesheet" type"text/css" href="css/bubbles.css">
   <link rel="stylesheet" type"text/css" href="css/team4.css">
 </head>
+
 <body>
-    <div> <h1>iLike</h1> 
-    </div>
-<p STYLE="WIDTH:100%;" align="center"> <font size="42">Your Personalized Suggestions!</font> </p>
-
-{{#each suggestions}}
-<div> <h2 class="food">{{ss}}</h2></div>
-<div> <img src ={{imgURL}}></div>
-<div> <h4>{{map}}</h4></div>
-{{/each}}
-
-
-  <div class="navigation">
+    <div class="navigation">
     <ul id="menu">
       <li><a onclick="goBack()">Go Back</a><li>
       <li><a href="/">Home</a></li>
@@ -32,6 +22,13 @@
       <li><a href="logout">LogOut</a></li>
     </ul> 
   </div>
+  <p STYLE="WIDTH:100%; padding-top:5%" align="center"> <font size="42">Your Personalized Suggestions!</font> </p>
+
+{{#each suggestions}}
+<div> <h2 class="food">{{ss}}</h2></div>
+<div> <img src ={{imgURL}} class = "result_img"></div>
+<div> <img src ={{mapURL}} class = "result_map"></div>
+{{/each}}
 
 <script src="/js/jquery-1.11.0.js"></script>
 <script src="/js/bootstrap.js"></script>

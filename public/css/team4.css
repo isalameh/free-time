@@ -1,7 +1,6 @@
 caption
 {
 	font: italic bold Georgia, serif;
-	font-size: 30;
 	color: red;
 }
 h1
@@ -12,17 +11,18 @@ html
 {
 	vertical-align: center;
 	text-align: center;
-	font-size: 25;
+
 }
 body
 {
 		background-color:#81bda4;
 }
 
+
 a{
 	color: red;
 	text-decoration: none;
-	font-size: 30;
+
 
 }
 h2
@@ -31,7 +31,6 @@ h2
 }
 h3
 {
-	font-size: 30;
 }
 img
 {
@@ -48,8 +47,32 @@ input.vertical
 	border-radius: 5%;
 	overflow: hidden;
 	background-color: lightgreen;
-}
 
+}
+.toResults
+{
+	width: 20%;
+	font-size: 40px;
+
+
+}
+.neutral
+{
+	float: left;
+	width: 20%;
+	height: 60%;
+	position: relative;
+	border-radius: 20%;
+	background-color: lightblue;
+	margin-top: 13%;
+	padding: 2%;
+	padding-top: 45%;
+	padding-bottom: 45%;
+	color: BLACK;
+	text-align: center;
+
+
+}
 .buttons
 {
 
@@ -61,25 +84,26 @@ input.vertical
 
 }
 
+
 .buttonsD
 {
-	font-size: 200%;
+	font-size: 500%;
 }
 
 .slider
 {
 	float: right;
 	width: 25%;
-	font-size: 20;
+	font-size: 20%;
 	position: relative;
-	height: 100%;
+	height: 100%%;
+
 }
 .food
 {
 	background-color: #CC632A;
 	border-radius: 0 30px 30px 0;
 	padding-left: 30px;
-	font-size: 30;
 	color:#5D3216;
 }
 .food:hover
@@ -102,11 +126,37 @@ input.vertical
 	color: #B1C455;
 }
 
-.selected
+.result_img
 {
-	background-color: #00CC00;
-	border-radius: 0 30px 30px 0;
-	padding-left: 30px;
-	color: #647448;
+	padding-bottom: 3%;
+	width: 100%;
+}
+.result_map
+{
+	padding-bottom: 5%;
+	width: 100%;
 }
 
+
+ul#menu {
+	position: absolute;
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+    width: 25%;
+}
+
+ul#menu li a {
+    background-color: tan;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+    width: 25%;
+}
+
+ul#menu li a:hover {
+    background-color: silver;
+}

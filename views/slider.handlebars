@@ -6,20 +6,6 @@
   <link rel="stylesheet" type"text/css" href="css/team4.css">
 </head>
 <body>
-  <h1>iLike</h1>
-  <div id="bubble1">
-  	</div>
-
-    <input STYLE="position:absolute; TOP:50%; LEFT:25%;" type=range min=0 max=5 value=3 id=fader>
-    
-
-  	<div STYLE="position:absolute; TOP:50%; LEFT:40%; WIDTH:30%; HEIGHT:50%" class="guy1"><a href="questions">
-  	<img src="/images/go.jpg">
-  	</a></div>
-  </a></div>
-
-  <p STYLE="position:absolute; TOP:20%; LEFT:12%; WIDTH:30%; HEIGHT:15%"  >How much time do we have?</p>
-
   <div class="navigation">
     <ul id="menu">
       <li><a onclick="goBack()">Go Back</a><li>
@@ -29,6 +15,18 @@
       <li><a href="logout">LogOut</a></li>
     </ul> 
   </div>
+  <h1>iLike</h1>
+
+    <h2 class="prompt" STYLE="position:relative;WIDTH:100%; HEIGHT:15%">How Much Time Do You Have?</h2>
+    <div ><input  STYLE="position:relative" type=range min=0 max=5 value=3 id=fader></div>
+    
+
+  	<div class="next" STYLE="position:relative WIDTH:80%; HEIGHT:50%" class="slide"><a class="next" href="questions">
+  	<img src="/images/go.jpg" >
+  	</a></div>
+  </a></div>
+
+  
 
 <script src="/js/jquery-1.11.0.js"></script>
 <script src="/js/bootstrap.js"></script>

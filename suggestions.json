@@ -3,14 +3,37 @@
 		{
 			"serial": "s1",
 			"ss": "Skydiving",
-			"imgURL": "http://www.skydiveseb.com/data6/images/9.08beachjumpfx5.jpg",
-			"map": "http://www.notaboutthenumbers.com/wp-content/uploads/2012/05/071a780965e-maps.jpg"
+			"imgURL": "/images/skydiving.jpg",
+			"mapURL": "/images/skydiving_map.jpg",
+			"how_you_felt": ""
 		},
 		{
 			"serial": "s2",
-			"ss": "How Much $$ Do You Want to Spend?",
-			"imgURL": "On A Budget",
-			"map": "Moderate"
-		}		
+			"ss": "Kayaking",
+			"imgURL": "/images/kayaking.jpg",
+			"mapURL": "/images/kayaking_map.jpg",
+			"how_you_felt": ""
+		},
+		{
+			"serial": "s3",
+			"ss": "Romantic Dinner",
+			"imgURL": "/images/romantic_dinner.jpg",
+			"mapURL": "/images/romantic_dinner_map.png",
+			"how_you_felt": ""
+		},
+		{
+			"serial": "s4",
+			"ss": "Sea World",
+			"imgURL": "/images/sea_world.jpg",
+			"mapURL": "/images/sea_world_map.png",
+			"how_you_felt": ""
+		},
+		{
+			"serial": "s5",
+			"ss": "Chill at the Crib & Watch Wizards of Oz",
+			"imgURL": "/images/wiz.jpg",
+			"mapURL": "/images/home_map.png",
+			"how_you_felt": ""
+		}
 	]
 }
