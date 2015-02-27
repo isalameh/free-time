@@ -2,6 +2,8 @@
 
 'use strict';
 
+var answers = {};
+
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
 	initializePage();
@@ -12,11 +14,52 @@ $(document).ready(function() {
 	$(this).text("selected");
 });*/
 
-$('.fun').click(function(event){
+var opt = [];
+
+$('#q1 .fun').click(function(event){
 	event.preventDefault();
 	console.log("Item Selected");
-	$(this).css("background-color", "#cccccc");
+	opt = $(this).text();
+	console.log(opt);
+	answers.q1 = opt;
+	console.log(answers);
+	$("#q1").hide();
+	$("#q2").show();
 });
+
+$('#q2 .fun').click(function(event){
+	event.preventDefault();
+	console.log("Item Selected");
+	opt = $(this).text();
+	console.log(opt);
+	answers.q2 = opt;
+	console.log(answers);
+	$("#q2").hide();
+	$("#q3").show();
+});
+
+$('#q3 .fun').click(function(event){
+	event.preventDefault();
+	console.log("Item Selected");
+	opt = $(this).text();
+	console.log(opt);
+	answers.q3 = opt;
+	console.log(answers);
+	$("#q3").hide();
+	$("#q4").show();
+});
+
+$('#q4 .fun').click(function(event){
+	event.preventDefault();
+	console.log("Item Selected");
+	opt = $(this).text();
+	console.log(opt);
+	answers.q4 = opt;
+	console.log(answers);
+	$("#q4").hide();
+
+
+})
 
 })
 
@@ -24,6 +67,8 @@ $('.fun').click(function(event){
  * Function that is called when the document is ready.
  */
 function initializePage() {
+	$('.opt').hide();
+	$('#q1').show();
 	console.log("Javascript connected!");
 }
 

@@ -9,6 +9,12 @@
   <title>Time Selection</title>
   <link rel="stylesheet" type"text/css" href="css/bubbles.css">
   <link rel="stylesheet" type"text/css" href="css/team4.css">
+<link rel="stylesheet" href="css/circular-slider.css" />
+<script src="/js/jquery-1.11.0.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/hci-friends.js"></script>
+<script src="/js/circular-slider.js"></script>
+
 </head>
 
 <body>
@@ -24,17 +30,25 @@
   <h1>iLike</h1>
 
     <h2 class="prompt" STYLE="position:relative;WIDTH:100%; HEIGHT:15%">How Much Time Do You Have?</h2>
-    <div ><input  STYLE="position:relative" type=range min=0 max=5 value=3 id=fader></div>
     
+<div id="slider"></div>
+<script type="text/javascript">var slider = $('#slider').CircularSlider({
+radius: 400,
+labelSuffix: "Min",
+    min: 5,
+    max: 360
 
+
+
+
+});</script>
   	<div class="next" STYLE="position:relative WIDTH:80%; HEIGHT:50%" class="slide"><a class="next" href="questions">
   	<img src="/images/go.jpg" >
   	</a></div>
   </a></div>
 
-<script src="/js/jquery-1.11.0.js"></script>
-<script src="/js/bootstrap.js"></script>
-<script src="/js/hci-friends.js"></script>
+
+
 
 </body>
 </html>

@@ -25,10 +25,12 @@
 <p STYLE="WIDTH:100%; padding-top:5%" align="center"> <font size="42">Let Us Personalize Your Experience!</font> </p>
 
 {{#each questions}}
-<div> <h2 onclick="myFunction" class="food">{{qq}}</h2></div>
+<div class="opt" id="{{serial}}">
+  <div> <h2 onclick="myFunction" class="food">{{qq}}</h2></div>
 <div> <h4 class="fun">{{opt1}}</h4></div>
 <div> <h4 class="fun">{{opt2}}</h4></div>
 <div> <h4 class="fun">{{opt3}}</h4></div>
+</div>
 {{/each}}
 
 <a href="suggestions">
