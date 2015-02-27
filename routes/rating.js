@@ -11,14 +11,14 @@ exports.addRating = function(req, res) {
 	var date = req.query.eventDate;
 
 	var newRating = {
-		"ss": place,
+		"hh": place,
 		"feeling": feeling,
 		"eventDate": date
 	}
 
 	console.log("New Rating Added: " +feeling);
 
-	data["suggestions"].push(newRating);
+	data["history"].unshift(newRating);
 
 	console.log("Data Added: " +data);
 	res.render('rating');

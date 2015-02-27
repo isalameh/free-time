@@ -35,41 +35,31 @@
 			"id":1,
 			"ss": "Skydiving",
 			"imgURL": "/images/skydiving.jpg",
-			"mapURL": "/images/skydiving_map.jpg",
-			"feeling": "You Felt Adventurous!",
-			"eventDate": "01/01/2015"
+			"mapURL": "/images/skydiving_map.jpg"
 		},
 		{
 			"id": 2,
 			"ss": "Kayaking",
 			"imgURL": "/images/kayaking.jpg",
-			"mapURL": "/images/kayaking_map.jpg",
-			"feeling": "You Were Exhausted",
-			"eventDate": "01/11/2015"
+			"mapURL": "/images/kayaking_map.jpg"
 		},
 		{
 			"id": 3,
 			"ss": "Romantic Dinner",
 			"imgURL": "/images/romantic_dinner.jpg",
-			"mapURL": "/images/romantic_dinner_map.png",
-			"feeling": "You Fell In-Love!",
-			"eventDate": "02/14/2015"
+			"mapURL": "/images/romantic_dinner_map.png"
 		},
 		{
 			"id": 4,
 			"ss": "Sea World",
 			"imgURL": "/images/sea_world.jpg",
-			"mapURL": "/images/sea_world_map.png",
-			"feeling": "You Had Fun!",
-			"eventDate": "02/16/2015"
+			"mapURL": "/images/sea_world_map.png"
 		},
 		{
 			"id": 5,
 			"ss": "Chill at the Crib & Watch Wizards of Oz",
 			"imgURL": "/images/wiz.jpg",
-			"mapURL": "/images/home_map.png",
-			"feeling": " You Felt Relaxed",
-			"eventDate": "02/20/2015"
+			"mapURL": "/images/home_map.png"
 		}
 	],
 	"history": [
