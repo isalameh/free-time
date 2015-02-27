@@ -19,7 +19,7 @@
 			"qq": "How Are You Feeling?",
 			"opt1": "Hungry",
 			"opt2": "Adventurous",
-			"opt3": "Lonely"
+			"opt3": "Permiscuous"
 		},
 		{
 			"serial": "q4",
@@ -32,36 +32,37 @@
 
 	"suggestions": [
 		{
-			"id":"s1",
+			"id":1,
 			"ss": "Skydiving",
 			"imgURL": "/images/skydiving.jpg",
 			"mapURL": "/images/skydiving_map.jpg"
 		},
 		{
-			"id": "s2",
+			"id": 2,
 			"ss": "Kayaking",
 			"imgURL": "/images/kayaking.jpg",
 			"mapURL": "/images/kayaking_map.jpg"
 		},
 		{
-			"id": "s3",
+			"id": 3,
 			"ss": "Romantic Dinner",
 			"imgURL": "/images/romantic_dinner.jpg",
 			"mapURL": "/images/romantic_dinner_map.png"
 		},
 		{
-			"id": "s4",
+			"id": 4,
 			"ss": "Sea World",
 			"imgURL": "/images/sea_world.jpg",
 			"mapURL": "/images/sea_world_map.png"
 		},
 		{
-			"id": "s5",
+			"id": 5,
 			"ss": "Chill at the Crib & Watch Wizards of Oz",
 			"imgURL": "/images/wiz.jpg",
 			"mapURL": "/images/home_map.png"
 		}
 	],
+
 	"history": [
 	{
 			"id":1,
@@ -94,6 +95,7 @@
 			"eventDate": "02/20/2015"
 		}
 	],
+	
 	"settings": [
 	{
 			"id":1,

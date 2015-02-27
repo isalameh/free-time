@@ -11,8 +11,9 @@
   <link rel="stylesheet" type"text/css" href="css/bubbles.css">
   <link rel="stylesheet" type"text/css" href="css/team4.css">
 </head>
+
 <body>
-  <div class="navigation">
+    <div class="navigation">
     <ul id="menu">
       <li><a onclick="goBack()">Go Back</a><li>
       <li><a href="/">Home</a></li>
@@ -22,20 +23,14 @@
     </ul> 
   </div>
 
-<p STYLE="WIDTH:100%; padding-top:5%" align="center"> <font size="42">Let Us Personalize Your Experience!</font> </p>
+  <p STYLE="WIDTH:100%; padding-top:5%" align="center"> <font size="42">Your Personalized Suggestions!</font> </p>
 
-{{#each questions}}
-<div class="opt" id="{{serial}}">
-  <div> <h2 class="food">{{qq}}</h2></div>
-<div> <h4 class="fun">{{opt1}}</h4></div>
-<div> <h4 class="fun">{{opt2}}</h4></div>
-<div> <h4 class="fun">{{opt3}}</h4></div>
-</div>
+{{#each suggestions}}
+<div class="sug" id="{{id}}">
+<div> <h2 class="food">{{ss}}</h2></div>
+<div> <a href="rating"> <img src ={{imgURL}} class = "result_img"></div>
+<div> <img src ={{mapURL}} class = "result_map"></div>
 {{/each}}
-
-<a href="suggestions">
-  <img STYLE="position:relative WIDTH:15%;" vertical  src="/images/go_arrow.png">
-  </a>
 
 <script src="/js/jquery-1.11.0.js"></script>
 <script src="/js/bootstrap.js"></script>
