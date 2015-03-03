@@ -5,7 +5,7 @@
 			"qq": "How Many People?",
 			"opt1": "Solo",
 			"opt2": "Date",
-			"opt3": "group"
+			"opt3": "Group"
 		},
 		{
 			"serial": "q2",
@@ -64,31 +64,31 @@
 	],
 	"history": [
 	{
-			"id":1,
+			"id": "h1",
 			"hh": "Skydiving",
 			"feeling": "You Felt Adventurous!",
 			"eventDate": "01/01/2015"
 		},
 		{
-			"id": 2,
+			"id": "h2",
 			"hh": "Kayaking",
 			"feeling": "You Were Exhausted",
 			"eventDate": "01/11/2015"
 		},
 		{
-			"id": 3,
+			"id": "h3",
 			"hh": "Romantic Dinner",
 			"feeling": "You Felt Like a Sucker!",
 			"eventDate": "02/14/2015"
 		},
 		{
-			"id": 4,
+			"id": "h4",
 			"hh": "Sea World",
 			"feeling": "You Had Fun!",
 			"eventDate": "02/16/2015"
 		},
 		{
-			"id": 5,
+			"id": "h5",
 			"hh": "Chill at the Crib & Watch Wizards of Oz",
 			"feeling": " You Felt Relaxed",
 			"eventDate": "02/20/2015"
@@ -96,21 +96,21 @@
 	],
 	"settings": [
 	{
-			"id":1,
+			"id": "s1",
 			"set": "Are You Over 21?",
 			"opt1": "Yes",
 			"opt2": "No",
 			"opt3": "No, but I have a fake id"
 		},
 		{
-			"id": 2,
+			"id": "s2",
 			"set": "Are You Single?",
 			"opt1": "Yes",
 			"opt2": "No",
 			"opt3": "Weekdays Only"
 		},
 		{
-			"id": 3,
+			"id": "s3",
 			"set": "Do You Have Kids?",
 			"opt1": "Yes",
 			"opt2": "No",

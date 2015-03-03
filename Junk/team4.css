@@ -105,9 +105,8 @@ input.vertical
 	border-radius: 0 30px 30px 0;
 	padding-left: 30px;
 	color:#5D3216;
-	font-size: 93px;
 }
-.food2:hover
+.food:hover
 {
 	background-color: #5D3216;
 	color: #CC632A
@@ -119,10 +118,9 @@ input.vertical
 	border-radius: 0 30px 30px 0;
 	padding-left: 30px;
 	color: #647448;
-	font-size: 93px;
 }
 
-.fun2:hover
+.fun:hover
 {
 	background-color: #647448;
 	color: #B1C455;
