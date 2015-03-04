@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+      function goBack() {
+        window.history.back()
+      }
+    </script>
+  <title>Experience Personalization</title>
+<head> 
+  <link rel="stylesheet" type"text/css" href="css/bubbles.css">
+  <link rel="stylesheet" type"text/css" href="css/team4.css">
+</head>
+<body>
+  <div class="navigation">
+    <ul id="menu">
+      <li><a onclick="goBack()">Go Back</a><li>
+      <li><a href="/">Home</a></li>
+      <li><a href="profile">Profile</a></li>
+      <li><a href="history">History</a></li>
+      <li><a href="logout">LogOut</a></li>
+    </ul> 
+  </div>
+
+<p STYLE="WIDTH:100%; padding-top:5%" align="center"> <font size="42">Let Us Personalize Your Experience!</font> </p>
+
+{{#each questions}}
+<div> <h2 onclick="myFunction" class="food">{{qq}}</h2></div>
+<div> <h4 class="fun">{{opt1}}</h4></div>
+<div> <h4 class="fun">{{opt2}}</h4></div>
+<div> <h4 class="fun">{{opt3}}</h4></div>
+{{/each}}
+
+<a href="suggestions">
+  <img STYLE="position:relative WIDTH:15%;" vertical  src="/images/go.jpg">
+  </a>
+
+
+<script> function myFunction(){
+
+} 
+</script>
+<script src="/js/jquery-1.11.0.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/hci-friends.js"></script>
+
+</body>
+</html>
