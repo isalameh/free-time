@@ -2,79 +2,68 @@
 
 'use strict';
 
+var answers = {};
+var opt_b = [];
+
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
 	initializePage();
-	
-var opt = [];
 
-$('#q1 .fun').click(function(event){
-	event.preventDefault();
-	console.log("Item Selected");
-	opt = $(this).text();
-	console.log(opt);
-	answers.q1 = opt;
-	console.log(answers);
-	$("#q1").hide();
+	$('#q1 .fun').click(function(event){
+		event.preventDefault();
+		console.log("Item Selected");
+		opt_b = $(this).text();
+		console.log(opt_b);
+		answers.q1 = opt_b;
+		console.log(answers);
+		$("#q1").hide();
 
-	woopra.tack("b_version_click");
+		woopra.track("b_version_click_q1");
+	});
+
+	$('#q2 .fun').click(function(event){
+		event.preventDefault();
+		console.log("Item Selected");
+		opt_b = $(this).text();
+		console.log(opt_b);
+		answers.q2 = opt_b;
+		console.log(answers);
+		$("#q2").hide();
+
+		woopra.track("b_version_click_q2");
+	});
+
+	$('#q3 .fun').click(function(event){
+		event.preventDefault();
+		console.log("Item Selected");
+		opt_b = $(this).text();
+		console.log(opt_b);
+		answers.q3 = opt_b;
+		console.log(answers);
+		$("#q3").hide();
+
+		woopra.track("b_version_click_q3");
+	});
+
+	$('#q4 .fun').click(function(event){
+		event.preventDefault();
+		console.log("Item Selected");
+		opt_b = $(this).text();
+		console.log(opt_b);
+		answers.q4 = opt_b;
+		console.log(answers);
+		$("#q4").hide();
+
+		woopra.track("b_version_click_q4");
+	});
 });
 
-$('#q2 .fun').click(function(event){
-	event.preventDefault();
-	console.log("Item Selected");
-	opt = $(this).text();
-	console.log(opt);
-	answers.q2 = opt;
-	console.log(answers);
-	$("#q2").hide();
-
-	woopra.tack("b_version_click");
-});
-
-$('#q3 .fun').click(function(event){
-	event.preventDefault();
-	console.log("Item Selected");
-	opt = $(this).text();
-	console.log(opt);
-	answers.q3 = opt;
-	console.log(answers);
-	$("#q3").hide();
-
-	woopra.tack("b_version_click");
-});
-
-$('#q4 .fun').click(function(event){
-	event.preventDefault();
-	console.log("Item Selected");
-	opt = $(this).text();
-	console.log(opt);
-	answers.q4 = opt;
-	console.log(answers);
-	$("#q4").hide();
-
-	woopra.tack("b_version_click");
-})
-
-
-// $('.fun').click(function(event){
-// 	event.preventDefault();
-// 	console.log("Item Selected");
-// 	$(this).toggleClass("funS" );
-// 	$('#q')
-	
-// 	woopra.tack("b_version_click");
-// });
-
-// $('.funS').click(function(event){
-// 	event.preventDefault();
-// 	console.log("Item Selected");
-// 	$(this).toggleClass("fun" );
-// });
-
-// })
-
-
+/*
+ * Function that is called when the document is ready.
+ */
 function initializePage() {
 	console.log("Javascript connected!");
+	var strring = '#s'+Math.floor((Math.random() * 5) + 1);
+	console.log( strring);
+	$(strring).show();
 }

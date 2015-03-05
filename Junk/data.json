@@ -5,7 +5,7 @@
 			"qq": "How Many People?",
 			"opt1": "Solo",
 			"opt2": "Date",
-			"opt3": "group"
+			"opt3": "Group"
 		},
 		{
 			"serial": "q2",
@@ -19,7 +19,7 @@
 			"qq": "How Are You Feeling?",
 			"opt1": "Hungry",
 			"opt2": "Adventurous",
-			"opt3": "Permiscuous"
+			"opt3": "Lonely"
 		},
 		{
 			"serial": "q4",
@@ -32,87 +32,85 @@
 
 	"suggestions": [
 		{
-			"id":1,
+			"id":"s1",
 			"ss": "Skydiving",
 			"imgURL": "/images/skydiving.jpg",
 			"mapURL": "/images/skydiving_map.jpg"
 		},
 		{
-			"id": 2,
+			"id": "s2",
 			"ss": "Kayaking",
 			"imgURL": "/images/kayaking.jpg",
 			"mapURL": "/images/kayaking_map.jpg"
 		},
 		{
-			"id": 3,
+			"id": "s3",
 			"ss": "Romantic Dinner",
 			"imgURL": "/images/romantic_dinner.jpg",
 			"mapURL": "/images/romantic_dinner_map.png"
 		},
 		{
-			"id": 4,
+			"id": "s4",
 			"ss": "Sea World",
 			"imgURL": "/images/sea_world.jpg",
 			"mapURL": "/images/sea_world_map.png"
 		},
 		{
-			"id": 5,
+			"id": "s5",
 			"ss": "Chill at the Crib & Watch Wizards of Oz",
 			"imgURL": "/images/wiz.jpg",
 			"mapURL": "/images/home_map.png"
 		}
 	],
-
 	"history": [
 	{
-			"id":1,
+			"id": "h1",
 			"hh": "Skydiving",
 			"feeling": "You Felt Adventurous!",
 			"eventDate": "01/01/2015"
 		},
 		{
-			"id": 2,
+			"id": "h2",
 			"hh": "Kayaking",
 			"feeling": "You Were Exhausted",
 			"eventDate": "01/11/2015"
 		},
 		{
-			"id": 3,
+			"id": "h3",
 			"hh": "Romantic Dinner",
 			"feeling": "You Felt Like a Sucker!",
 			"eventDate": "02/14/2015"
 		},
 		{
-			"id": 4,
+			"id": "h4",
 			"hh": "Sea World",
 			"feeling": "You Had Fun!",
 			"eventDate": "02/16/2015"
 		},
 		{
-			"id": 5,
+			"id": "h5",
 			"hh": "Chill at the Crib & Watch Wizards of Oz",
 			"feeling": " You Felt Relaxed",
 			"eventDate": "02/20/2015"
 		}
 	],
-	
 	"settings": [
 	{
-			"id":1,
+			"id": "set1",
 			"set": "Are You Over 21?",
 			"opt1": "Yes",
 			"opt2": "No",
 			"opt3": "No, but I have a fake id"
 		},
 		{
-			"id": 2,
+			"id": "set2",
 			"set": "Are You Single?",
 			"opt1": "Yes",
 			"opt2": "No",
 			"opt3": "Weekdays Only"
 		},
 		{
-			"id": 3,
+			"id": "set3",
 			"set": "Do You Have Kids?",
 			"opt1": "Yes",
 			"opt2": "No",

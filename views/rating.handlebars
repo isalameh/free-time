@@ -6,12 +6,12 @@
         window.history.back()
       }
     </script>
-  <title>Experience Personalization</title>
+  <title>Experience Rating</title>
 <head> 
 	<link href="/css/bootstrap.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.css" rel="stylesheet">
-	<link rel="stylesheet" type"text/css" href="css/bubbles.css">
 	<link rel="stylesheet" type"text/css" href="css/team4.css">
+	<link rel="stylesheet" type"text/css" href="css/bubbles.css">
 </head>
 <body>
   <div class="navigation">
@@ -24,10 +24,9 @@
     </ul> 
   </div>
 
-<p STYLE="WIDTH:100%; padding-top:5%" align="center"> <font size="42">Please Rate Your Experience!</font> </p>
+<p STYLE="WIDTH:100%; padding-top:5%" align="center" class="tit"> Rate Your Experience! </p>
 
-<form id="addRatingForm" role="form" method="get" action="/rating">
-		<font size="44">Add a Rating</font>
+<form action="/" id="addRatingForm" role="form" method="get" action="/rating">
 	    <div class="form-group">
 	      <label for="ss">
 	    	<div> <h2 class="food">Where Did You Go?</h2></div>
@@ -44,13 +43,11 @@
 	      <label for="description">
 	      	<div> <h2 class="food">When Did You Do This?</h2></div>
 	      	</label>
-	      <input type="text" class="form-control" id="eventDate" placeholder="Date" name="eventDate">
+	      <input type="text" class="form-control" id="eventDate" placeholder="Date" name="eventDate" style="height: 300px;">
 	    </div>
 	    <input type="submit" id="submitBtn" class="btn btn-default" value="Record Your Experience">
-	    
 		</input>
-</form>
-
+	</form>
 
 <script src="/js/jquery-1.11.0.js"></script>
 <script src="/js/bootstrap.js"></script>
