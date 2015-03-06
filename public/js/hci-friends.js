@@ -72,8 +72,20 @@ function initializePage() {
 	$('.opt_a').hide();
 	$('.sug').hide();
 	$('#q1').show();
-	console.log("Javascript connected!");
+	console.log('Javascript connected!');
+	var numberofsuggestions = 10;
+	for (var i = 0; i < numberofsuggestions; i++) { 
+    	var suggestion = '#s' + i+ ' #opt1';
+    	console.log($(suggestion).text());
+ 
+    	
+	}/*	for each suggestions
+compare provided response with json properties (to be inputted)
+then pick a random suggestion from those that matched
+
+*/
 	var strring = '#s'+Math.floor((Math.random() * 5) + 1);
+	
 	console.log( strring);
 	$(strring).show();
 }

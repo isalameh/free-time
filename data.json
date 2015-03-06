@@ -35,73 +35,85 @@
 			"id":"s1",
 			"ss": "Skydiving",
 			"imgURL": "/images/skydiving.jpg",
-			"mapURL": "https://www.google.com/maps/place/skydiving"
+			"mapURL": "https://www.google.com/maps/place/skydiving",
+			"opt1": "1"
 		},
 		{
 			"id": "s2",
 			"ss": "Kayaking",
 			"imgURL": "/images/kayaking.jpg",
-			"mapURL": "https://www.google.com/maps/place/kayak"
+			"mapURL": "https://www.google.com/maps/place/kayak",
+			"opt1": "1"
 		},
 		{
 			"id": "s3",
 			"ss": "Romantic Dinner",
 			"imgURL": "/images/romantic_dinner.jpg",
-			"mapURL": "https://www.google.com/maps/place/romantic+dinner"
+			"mapURL": "https://www.google.com/maps/place/romantic+dinner",
+			"opt1": "1"
 		},
 		{
 			"id": "s4",
 			"ss": "Sea World",
 			"imgURL": "/images/sea_world.jpg",
-			"mapURL": "https://www.google.com/maps/place/seaworld"
+			"mapURL": "https://www.google.com/maps/place/seaworld",
+			"opt1": "1"
 
 		},
 		{
 			"id": "s5",
 			"ss": "San Diego Zoo",
 			"imgURL": "",
-			"mapURL": "https://www.google.com/maps/place/zoo"
+			"mapURL": "https://www.google.com/maps/place/zoo",
+			"opt1": "1"
 
 		},
 		{
 			"id": "s6",
 			"ss": "Chill at the Crib & Watch Wizards of Oz",
 			"imgURL": "/images/wiz.jpg",
-			"mapURL": "https://www.google.com/maps/place/oz"
+			"mapURL": "https://www.google.com/maps/place/oz",
+			"opt1": "1"
 		},
 		{
 			"id": "s7",
 			"ss": "Hike Torrey Pines Reserve",
 			"imgURL": "/images/pines.png",
-			"mapURL": "https://www.google.com/maps/place/torreypines+hike"
+			"mapURL": "https://www.google.com/maps/place/torreypines+hike",
+			"opt1": "1"
 		},
 		{
 			"id": "s8",
 			"ss": "Museum",
 			"imgURL": "",
-			"mapURL": "https://www.google.com/maps/place/museum"
+			"mapURL": "https://www.google.com/maps/place/museum",
+			"opt1": "1"
 		},
 		{
 			"id": "s9",
-			"ss": "Head to local Coffee Shop",
+			"ss": "Head to Local Coffee Shop",
 			"imgURL": "",
-			"mapURL": "https://www.google.com/maps/place/coffee+shop"
+			"mapURL": "https://www.google.com/maps/place/coffee+shop",
+			"opt1": "1"
 		},
 		{
 			"id": "s10",
-			"ss": "Go to the movies",
+			"ss": "Go to the Movies",
 			"imgURL": "",
-			"mapURL": "https://www.google.com/maps/place/movies"
+			"mapURL": "https://www.google.com/maps/place/movies",
+			"opt1": "1"
 		},
 		{
 			"id": "s11",
-			"ss": "Go downtown to a club",
+			"ss": "Go Downtown to a Club",
 			"imgURL": "",
-			"mapURL": "https://www.google.com/maps/place/downtown+bar"
+			"mapURL": "https://www.google.com/maps/place/downtown+bar",
+			"opt1": "1"
 		}
 	],
+	
 	"history": [
-	{
+		{
 			"id": "h1",
 			"hh": "Skydiving",
 			"feeling": "You Felt Adventurous!",
@@ -132,8 +144,9 @@
 			"eventDate": "02/20/2015"
 		}
 	],
+
 	"settings": [
-	{
+		{
 			"id": "s1",
 			"set": "Are You Over 21?",
 			"opt1": "Yes",
@@ -153,6 +166,16 @@
 			"opt1": "Yes",
 			"opt2": "No",
 			"opt3": "Don't Know, Ask Morrey"
+		}
+	],
+
+	"rating": [
+		{
+			"id": "f1",
+			"feel": "How Did This Make You Feel?",
+			"opt1": "Fantastic",
+			"opt2": "Alright",
+			"opt3" : "Terrible"
 		}
 	]
 }

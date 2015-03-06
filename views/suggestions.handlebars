@@ -26,14 +26,15 @@
   <p STYLE="WIDTH:100%; padding-top:5%" align="center" class="tit"> Your Personalized Suggestions! </p>
 
 {{#each suggestions}}
-<div class="sug" id="{{id}}">
-<div> <h2 class="food">{{ss}}</h2></div>
-<div> <a href="rating"> <img src ={{imgURL}} class = "result_img"></div>
-</a>
-<a href="{{mapURL}}"><div class="fun fun2 pad">Map</div></a>
-<a href="rating"><div class="fun fun2 pad">Rate</div></a>
-<a href="suggestions"><div class="food food2 pad">Next</div></a>
-</div>
+  <div class="sug" id="{{id}}">
+    <div> <h2 class="food">{{ss}}</h2></div>
+    <div> <a href="rating"> <img src ={{imgURL}} class = "result_img"></div>
+    </a>
+    <div id="opt1" style="display: none;">{{opt1}}</div>
+    <a href="{{mapURL}}"><div class="fun fun2 pad">Map</div></a>
+    <a href="rating"><div class="fun fun2 pad">Rate</div></a>
+    <a href="suggestions"><div class="food food2 pad">Next</div></a>
+  </div>
 {{/each}}
 
 <script src="/js/jquery-1.11.0.js"></script>
