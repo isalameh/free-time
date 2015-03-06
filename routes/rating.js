@@ -22,9 +22,12 @@ exports.addRating = function(req, res) {
 
 	console.log("Data Added: " +data);
 	res.render('rating');
+
+
 }
 
 function confirmAction(){
-      var confirmed = confirm("Your Activity Has Been Recorded");
-      return confirmed;
+     var confirmed = confirm("Your Activity Has Been Recorded");
+     // window.location.href = '/';
+     return confirmed;
 }

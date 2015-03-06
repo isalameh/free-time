@@ -26,7 +26,7 @@
 
 <p STYLE="WIDTH:100%; padding-top:5%" align="center" class="tit"> Rate Your Experience! </p>
 
-<form action="/" id="addRatingForm" role="form" method="get" action="/rating">
+<form id="addRatingForm" role="form" method="get" action="/rating">
 	    <div class="form-group">
 	      <label for="ss">
 	    	<div> <h2 class="food">Where Did You Go?</h2></div>
@@ -37,7 +37,11 @@
 	      <label for="feeling">
 	      	<div> <h2 class="food">How Did This Make You Feel?</h2></div>
 	      </label>
-	      <input type="text" class="form-control" id="feeling" placeholder="Feelings" name="feeling">
+	     
+	      <div> <h3 class="fun fun2">{{}}</h4></div>
+		<div> <h3 class="fun fun2">{{}}</h4></div>
+		<div> <h3 class="fun fun2">{{}}</h4></div>
+
 	    </div>
 	    <div class="form-group">
 	      <label for="description">
@@ -45,7 +49,7 @@
 	      	</label>
 	      <input type="text" class="form-control" id="eventDate" placeholder="Date" name="eventDate" style="height: 300px;">
 	    </div>
-	    <input type="submit" id="submitBtn" class="btn btn-default" value="Record Your Experience">
+	    <input type="submit" id="submitBtn" class="btn" value="Record Your Experience">
 		</input>
 	</form>
 

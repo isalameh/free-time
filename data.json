@@ -58,9 +58,46 @@
 		},
 		{
 			"id": "s5",
+			"ss": "San Diego Zoo",
+			"imgURL": "",
+			"mapURL": "https://www.google.com/maps/place/zoo"
+
+		},
+		{
+			"id": "s6",
 			"ss": "Chill at the Crib & Watch Wizards of Oz",
 			"imgURL": "/images/wiz.jpg",
 			"mapURL": "https://www.google.com/maps/place/oz"
+		},
+		{
+			"id": "s7",
+			"ss": "Hike Torrey Pines Reserve",
+			"imgURL": "/images/pines.png",
+			"mapURL": "https://www.google.com/maps/place/torreypines+hike"
+		},
+		{
+			"id": "s8",
+			"ss": "Museum",
+			"imgURL": "",
+			"mapURL": "https://www.google.com/maps/place/museum"
+		},
+		{
+			"id": "s9",
+			"ss": "Head to local Coffee Shop",
+			"imgURL": "",
+			"mapURL": "https://www.google.com/maps/place/coffee+shop"
+		},
+		{
+			"id": "s10",
+			"ss": "Go to the movies",
+			"imgURL": "",
+			"mapURL": "https://www.google.com/maps/place/movies"
+		},
+		{
+			"id": "s11",
+			"ss": "Go downtown to a club",
+			"imgURL": "",
+			"mapURL": "https://www.google.com/maps/place/downtown+bar"
 		}
 	],
 	"history": [
@@ -108,14 +145,14 @@
 			"set": "Are You Single?",
 			"opt1": "Yes",
 			"opt2": "No",
-			"opt3": "Weekdays Only"
+			"opt3": "Yes, but on the hunt"
 		},
 		{
 			"id": "s3",
 			"set": "Do You Have Kids?",
 			"opt1": "Yes",
 			"opt2": "No",
-			"opt3": "Don't Know, Ask Maurry"
+			"opt3": "Don't Know, Ask Morrey"
 		}
 	]
 }

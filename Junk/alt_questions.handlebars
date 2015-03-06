@@ -10,9 +10,8 @@
 <head> 
   <link rel="stylesheet" type"text/css" href="css/bubbles.css">
   <link rel="stylesheet" type"text/css" href="css/team4.css">
-{{>tracking_code_script}}
+  {{>tracking_code_script}}
 </head>
-
 <body>
   <div class="navigation">
     <ul id="menu">
@@ -27,11 +26,11 @@
 <p STYLE="WIDTH:100%; padding-top:5%" align="center" class="tit"> Personalize Your Experience! </p>
 
 {{#each questions}}
-<div class="opt" id="{{serial}}">
-  <div> <h3 class="food">{{qq}}</h2></div>
-<div> <h3 class="fun fun2">{{opt1}}</h4></div>
-<div> <h3 class="fun fun2">{{opt2}}</h4></div>
-<div> <h3 class="fun fun2">{{opt3}}</h4></div>
+<div id="{{serial}}">
+<div> <h2 onclick="myFunction" class="food">{{qq}}</h2></div>
+<div> <h4 class="fun">{{opt1}}</h4></div>
+<div> <h4 class="fun">{{opt2}}</h4></div>
+<div> <h4 class="fun">{{opt3}}</h4></div>
 </div>
 {{/each}}
 
@@ -39,9 +38,14 @@
   <img STYLE="position:relative WIDTH:15%;" vertical  src="/images/go_arrow.png">
   </a>
 
+
+<script> function myFunction(){
+
+} 
+</script>
 <script src="/js/jquery-1.11.0.js"></script>
 <script src="/js/bootstrap.js"></script>
-<script src="/js/hci-friends.js"></script>
+<script src="/js/alt_hci-friends.js"></script>
 
 </body>
 </html>

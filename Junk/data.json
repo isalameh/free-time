@@ -35,31 +35,32 @@
 			"id":"s1",
 			"ss": "Skydiving",
 			"imgURL": "/images/skydiving.jpg",
-			"mapURL": "/images/skydiving_map.jpg"
+			"mapURL": "https://www.google.com/maps/place/skydiving"
 		},
 		{
 			"id": "s2",
 			"ss": "Kayaking",
 			"imgURL": "/images/kayaking.jpg",
-			"mapURL": "/images/kayaking_map.jpg"
+			"mapURL": "https://www.google.com/maps/place/kayak"
 		},
 		{
 			"id": "s3",
 			"ss": "Romantic Dinner",
 			"imgURL": "/images/romantic_dinner.jpg",
-			"mapURL": "/images/romantic_dinner_map.png"
+			"mapURL": "https://www.google.com/maps/place/romantic+dinner"
 		},
 		{
 			"id": "s4",
 			"ss": "Sea World",
 			"imgURL": "/images/sea_world.jpg",
-			"mapURL": "/images/sea_world_map.png"
+			"mapURL": "https://www.google.com/maps/place/seaworld"
+
 		},
 		{
 			"id": "s5",
 			"ss": "Chill at the Crib & Watch Wizards of Oz",
 			"imgURL": "/images/wiz.jpg",
-			"mapURL": "/images/home_map.png"
+			"mapURL": "https://www.google.com/maps/place/oz"
 		}
 	],
 	"history": [
@@ -96,21 +97,21 @@
 	],
 	"settings": [
 	{
-			"id": "set1",
+			"id": "s1",
 			"set": "Are You Over 21?",
 			"opt1": "Yes",
 			"opt2": "No",
 			"opt3": "No, but I have a fake id"
 		},
 		{
-			"id": "set2",
+			"id": "s2",
 			"set": "Are You Single?",
 			"opt1": "Yes",
 			"opt2": "No",
 			"opt3": "Weekdays Only"
 		},
 		{
-			"id": "set3",
+			"id": "s3",
 			"set": "Do You Have Kids?",
 			"opt1": "Yes",
 			"opt2": "No",
