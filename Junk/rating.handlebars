@@ -28,10 +28,31 @@
 
 <form id="addRatingForm" role="form" method="get" action="/rating">
 	    <div class="form-group">
+	      <label for="ss">
+	    	<div> <h2 class="food">Where Did You Go?</h2></div>
+	      </label>
+	      <input type="text" class="form-control" id="ss" placeholder="Place" name="ss">
+	    </div>
+	    <div class="form-group">
+	      <label for="feeling">
+	      	<div> <h2 class="food">How Did This Make You Feel?</h2></div>
+	      </label>
+	
+	{{#each rating}}
+	<div class="rate" id="{{id}}">
+	<div> <h3 class="food">{{feel}}</h2></div>
+	<div> <h3 class="fun fun2">{{opt1}}</h4></div>
+	<div> <h3 class="fun fun2">{{opt2}}</h4></div>
+	<div> <h3 class="fun fun2">{{opt3}}</h4></div>
+	</div>
+	{{/each}}
+	   
+	    </div>
+	    <div class="form-group">
 	      <label for="description">
-	      	<div> <h2 class="food">How Did This Experience Make You Feel?</h2></div>
+	      	<div> <h2 class="food">When Did You Do This?</h2></div>
 	      	</label>
-	      <input type="text" class="form-control" id="eventDate" placeholder="Record Your Feelings" name="eventDate" style="height: 300px;">
+	      <input type="text" class="form-control" id="eventDate" placeholder="Date" name="eventDate" style="height: 300px;">
 	    </div>
 	    <input type="submit" id="submitBtn" class="btn" value="Record Your Experience">
 		</input>
