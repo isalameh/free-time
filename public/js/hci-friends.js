@@ -53,6 +53,7 @@ $(document).ready(function() {
 	});
 
 	$('#q4 .fun').click(function(event){
+		//req.param.
 		event.preventDefault();
 		console.log("Item Selected");
 		opt_a = $(this).text();
@@ -79,12 +80,13 @@ function initializePage() {
     	console.log($(suggestion).text());
  
     	
-	}/*	for each suggestions
+	}
+	/*	for each suggestions
 compare provided response with json properties (to be inputted)
 then pick a random suggestion from those that matched
 
 */
-	var strring = '#s'+Math.floor((Math.random() * 5) + 1);
+	var strring = '#s'+Math.floor((Math.random() * 	10) + 1);
 	
 	console.log( strring);
 	$(strring).show();

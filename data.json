@@ -36,34 +36,35 @@
 			"ss": "Skydiving",
 			"imgURL": "/images/skydiving.jpg",
 			"mapURL": "https://www.google.com/maps/place/skydiving",
-			"opt1": "1"
+			"sug": "Sunny"
+
 		},
 		{
 			"id": "s2",
 			"ss": "Kayaking",
 			"imgURL": "/images/kayaking.jpg",
 			"mapURL": "https://www.google.com/maps/place/kayak",
-			"opt1": "1"
+			"sug": "2"
 		},
 		{
 			"id": "s3",
 			"ss": "Romantic Dinner",
 			"imgURL": "/images/romantic_dinner.jpg",
 			"mapURL": "https://www.google.com/maps/place/romantic+dinner",
-			"opt1": "1"
+			"sug": "3"
 		},
 		{
 			"id": "s4",
 			"ss": "Sea World",
 			"imgURL": "/images/sea_world.jpg",
 			"mapURL": "https://www.google.com/maps/place/seaworld",
-			"opt1": "1"
+			"sug": "1"
 
 		},
 		{
 			"id": "s5",
 			"ss": "San Diego Zoo",
-			"imgURL": "",
+			"imgURL": "/images/san_diego_zoo.jpg",
 			"mapURL": "https://www.google.com/maps/place/zoo",
 			"opt1": "1"
 
@@ -85,28 +86,28 @@
 		{
 			"id": "s8",
 			"ss": "Museum",
-			"imgURL": "",
+			"imgURL":  "/images/art_museum.jpg",
 			"mapURL": "https://www.google.com/maps/place/museum",
 			"opt1": "1"
 		},
 		{
 			"id": "s9",
 			"ss": "Head to Local Coffee Shop",
-			"imgURL": "",
+			"imgURL":  "/images/coffee_shop.jpg",
 			"mapURL": "https://www.google.com/maps/place/coffee+shop",
 			"opt1": "1"
 		},
 		{
 			"id": "s10",
 			"ss": "Go to the Movies",
-			"imgURL": "",
+			"imgURL":  "/images/movie_theater.jpg",
 			"mapURL": "https://www.google.com/maps/place/movies",
 			"opt1": "1"
 		},
 		{
 			"id": "s11",
 			"ss": "Go Downtown to a Club",
-			"imgURL": "",
+			"imgURL":  "/images/night_club.jpg",
 			"mapURL": "https://www.google.com/maps/place/downtown+bar",
 			"opt1": "1"
 		}
